@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="style.css">
   <title>Signup Form</title>
 </head>
@@ -20,11 +21,26 @@
 
   <div class="wrapper">
     <div id="title">
-      <a href="#"><img src="images/logo.png" alt="intuit"></a>
+      <a href="#"><img src="images/logo.png" alt="intuit" id="logo"></a>
       <div id="icons">
-        <img src="images/mint.png" alt="mint">
-        <img src="images/quickbooks.png" alt="quickbooks">
-        <img src="images/turbotax.png" alt="turbotax">
+        <div class="icon-text">
+          <img src="images/mint-logo.svg" alt="mint" class="image">
+          <img src="images/mint.svg" alt="mint" class="image-text">
+        </div>
+
+        <div class="icon-text">
+          <img src="images/quickbooks-logo.svg" alt="mint" class="image">
+          <img src="images/quickbooks.svg" alt="mint" class="image-text 1">
+        </div>
+
+
+        <div class="icon-text">
+          <img src="images/turbotax-logo.svg" alt="mint" class="image">
+          <img src="images/turbotax.svg" alt="mint" class="image-text">
+        </div>
+
+        
+        
       </div>
     </div>
 
@@ -58,13 +74,15 @@
       </div>
     </div>
 
-    <footer>
-      <span id="links"><a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a></span>
-      <p>&copy;  2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
-      <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-    </footer>
+    
 
   </div>
+
+  <footer>
+    <span id="links"><a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a></span>
+    <p>&copy;  2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </footer>
 
 
 

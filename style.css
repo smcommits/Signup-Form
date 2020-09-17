@@ -37,6 +37,7 @@ button .lock {
 #top-bar {
     display: flex;
     justify-content: flex-end;
+    padding: 10px 30px;
 }
 
 #sign-in {
@@ -64,4 +65,43 @@ button .lock {
     text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+#title{
+    padding: 30px 0 0 0;
+}
+
+#logo{
+    width: 118px;
+    height: 35px;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#icons .image{
+    width: 23px;
+    height: 23px;
+}
+
+.icon-text{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    width: 380px;
+    border: 1px solid #c7c7c7;
+    padding: 30px;
+}
+
+#signup h1{
+    
+    color: #4C4C4C;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
 }
