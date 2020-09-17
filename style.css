@@ -1,32 +1,67 @@
-
-
-p{
-    margin:0;
+body {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #505050;
 }
 
+p {
+    margin: 0;
+}
+button {
+    background-color: #0077c5;
+    border: none;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button .lock {
+    display: block;
+    width: 16px;
+    height: 14px;
+    background-image: url(images/lock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+}
 
-#top-bar{
+.blue {
+    color: #0077c5;
+}
+
+#top-bar {
     display: flex;
     justify-content: flex-end;
 }
 
-#sign-in{
+#sign-in {
+    width: 290px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-#sign-in button{
+#sign-in button {
     width: 103px;
     height: 34px;
 }
 
-#sign-in p{
+#sign-in p {
     margin: 0;
     font-size: 12px;
 }
 
-#sign-in-text p:first-child {
-    margin-bottom: 5px;
-} 
+#sign-in p:first-child {
+    margin-bottom: 2px;
+}
 
-
+.wrapper {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
