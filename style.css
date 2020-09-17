@@ -67,40 +67,46 @@ button .lock {
     margin: 0 auto;
 }
 
-#title{
+#title {
     padding: 30px 0 0 0;
 }
 
-#logo{
+#logo {
     width: 118px;
     height: 35px;
+    padding-bottom: 20px;
 }
 
-#icons{
+#icons {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-#icons .image{
+#icons .image {
     width: 23px;
     height: 23px;
+    margin-right: 3px;
 }
 
-.icon-text{
+.icon-text {
     display: flex;
     align-items: center;
+    margin: 0 6px;
 }
 
-.wrapper{
+.icon-text span {
+    font-size: larger;
+    color: #7e7e7e;
+}
+
+.wrapper {
     width: 380px;
     border: 1px solid #c7c7c7;
     padding: 30px;
 }
 
-#signup h1{
-    
-    color: #4C4C4C;
+#signup h1 {
+    color: #4c4c4c;
     font-weight: 400;
     line-height: 1.1;
     font-size: 24px;
