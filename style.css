@@ -1,0 +1,32 @@
+
+
+p{
+    margin:0;
+}
+
+
+#top-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sign-in{
+    display: flex;
+    align-items: center;
+}
+
+#sign-in button{
+    width: 103px;
+    height: 34px;
+}
+
+#sign-in p{
+    margin: 0;
+    font-size: 12px;
+}
+
+#sign-in-text p:first-child {
+    margin-bottom: 5px;
+} 
+
+
