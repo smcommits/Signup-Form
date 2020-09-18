@@ -17,7 +17,7 @@ Heavy use of Flexbox
 
 ## Live Demo
 
-[Live Demo Link](https://smcommits.github.io/)
+[Live Demo Link](https://smcommits.github.io/sign-up/)
 
 
 ## Getting Started
