@@ -3,6 +3,10 @@ body {
     color: #505050;
 }
 
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
 p {
     margin: 0;
 }
@@ -32,6 +36,7 @@ button .lock {
 
 .blue {
     color: #0077c5;
+    font-size: 12px;
 }
 
 #top-bar {
@@ -69,6 +74,7 @@ button .lock {
 
 #title {
     padding: 30px 0 0 0;
+    text-align: center;
 }
 
 #logo {
@@ -81,6 +87,7 @@ button .lock {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 23px;
 }
 #icons .image {
     width: 23px;
@@ -99,10 +106,14 @@ button .lock {
     color: #7e7e7e;
 }
 
-.wrapper {
-    width: 380px;
+#signup{
+    margin: 0 auto;
+    width: 320px;
     border: 1px solid #c7c7c7;
+    border-radius: 2px;
     padding: 30px;
+    height: 80%;
+
 }
 
 #signup h1 {
@@ -110,4 +121,80 @@ button .lock {
     font-weight: 400;
     line-height: 1.1;
     font-size: 24px;
+    margin: 0;
 }
+
+#disc{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+#signup-form{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#sign-header{
+    padding-bottom: 20px;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.input-label label{
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+
+.input-label input{
+    height: 30px;
+    padding: 0 6px 0 8px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+}
+
+.input-label input:focus{
+    border: 1px solid #52A8EC;
+    outline: 0 none;
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+
+}
+
+#small{
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+#signup-form button{
+    width: 318px;
+    height: 44px;
+    padding: 6px 12px;
+    margin-bottom: 40px;
+    border-color:#0077c5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+
+#bottom-text{
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#recap{
+    padding: 16px;
+    font-size: 10px;
+    margin: 32px -30px -30px -30px;
+    background: #ECEEF1;
+}
+
+
+
