@@ -4,7 +4,7 @@
 
 > This project contains a clone of mint.com's signup page.
 
-![screenshot](./Project-Screenshot.png)
+![screenshot](./project-screenshot.png)
 
 
 ## Built With
