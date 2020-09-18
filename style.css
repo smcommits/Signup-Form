@@ -1,11 +1,13 @@
 body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #505050;
+    letter-spacing: 0.2px;
+    background: #eceef1;
 }
 
-a{
+a {
     text-decoration: none;
-    color: #0077C5;
+    color: #0077c5;
 }
 p {
     margin: 0;
@@ -55,6 +57,7 @@ button .lock {
 #sign-in button {
     width: 103px;
     height: 34px;
+    font-size: 13.5px;
 }
 
 #sign-in p {
@@ -106,14 +109,14 @@ button .lock {
     color: #7e7e7e;
 }
 
-#signup{
+#signup {
     margin: 0 auto;
     width: 320px;
     border: 1px solid #c7c7c7;
     border-radius: 2px;
     padding: 30px;
     height: 80%;
-
+    background-color: #fff;
 }
 
 #signup h1 {
@@ -124,22 +127,21 @@ button .lock {
     margin: 0;
 }
 
-#disc{
+#disc {
     font-size: 14px;
     padding-top: 20px;
 }
 
-#signup-form{
-    display:flex;
+#signup-form {
+    display: flex;
     flex-direction: column;
-
 }
 
-#sign-header{
+#sign-header {
     padding-bottom: 20px;
 }
 
-.input-label{
+.input-label {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -147,41 +149,40 @@ button .lock {
     margin-bottom: 30px;
 }
 
-.input-label label{
+.input-label label {
     padding-bottom: 12px;
     font-size: 14px;
 }
 
-.input-label input{
-    height: 30px;
+.input-label input {
+    height: 33px;
     padding: 0 6px 0 8px;
-    border: 1px solid #C1C5C8;
+    border: 1px solid #c1c5c8;
     border-radius: 3px;
 }
 
-.input-label input:focus{
-    border: 1px solid #52A8EC;
+.input-label input:focus {
+    border: 1px solid #52a8ec;
     outline: 0 none;
     border-color: rgba(82, 168, 236, 0.8);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
-
 }
 
-#small{
+#small {
     font-size: 10px;
     padding: 5px 0;
 }
 
-#signup-form button{
+#signup-form button {
     width: 318px;
     height: 44px;
     padding: 6px 12px;
     margin-bottom: 40px;
-    border-color:#0077c5;
+    border-color: #0077c5;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
 }
 
-#bottom-text{
+#bottom-text {
     font-size: 12px;
     font-style: italic;
     color: #757575;
@@ -189,12 +190,27 @@ button .lock {
     text-align: center;
 }
 
-#recap{
+#recap {
     padding: 16px;
     font-size: 10px;
     margin: 32px -30px -30px -30px;
-    background: #ECEEF1;
+    background: #eceef1;
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
 
+footer p {
+    margin: 5px auto;
+}
 
+#links a {
+    color: #505050;
+}
+#links a:nth-child(2),
+#links a:last-child {
+    padding-left: 10px;
+}
